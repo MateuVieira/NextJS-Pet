@@ -85,21 +85,42 @@ export const Neighborhood = styled.h3`
 
 export const ListItens = styled.div`
   display: flex;
+  flex-direction: row;
   flex: 1;
-  background-color: white;
+  background-color: whitesmoke;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+
+  justify-content: start;
+  align-items: center;
 `;
 
 export const VetComponent = styled(Vet)`
-  width: 30%;
-  height: 30%;
+  width: 236;
+  height: 100%;
+  transform: scale(0.8);
+
+  &:hover {
+    transform: scale(0.9)  
+  }
 `;
 
 export const FoodComponent = styled(Food)`
-  width: 30%;
-  height: 30%;
+  width: 241.516px;
+  height: 235.515px;
+  transform: scale(0.6);
+
+  &:hover {
+    transform: scale(0.7)  
+  }
 `;
 
 export const TosaComponent = styled(Tosa)`
-  width: 30%;
-  height: 30%;
+  width: 165px;
+  height: 100%;
+  transform: scale(0.6);
+
+  &:hover {
+    transform: scale(0.7)  
+  }
 `;

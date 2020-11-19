@@ -37,7 +37,11 @@ function Item(dataItem) {
           <Neighborhood>{dataItem.data.location.neighborhood}</Neighborhood>
         </Location>
       </Info>
-      
+      <ListItens>
+        <VetComponent />
+        <FoodComponent />
+        <TosaComponent />
+      </ListItens>
     </Container>
   );
 }
